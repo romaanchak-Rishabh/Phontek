@@ -97,3 +97,41 @@
 .related-products h1 {
     font-size: 2.5rem;
 }
+
+@media only screen and (max-width: 768px) {
+    .fullpage-product-main {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 468px) {
+    .fullpage-product-main {
+        flex-direction: column;
+    }
+
+    .fullpage-product-main-img {
+        width: 100%;
+    }
+
+    .fullpage-product-main-titles {
+        width: 100%;
+    }
+
+    .fullpage-product-main-titles p {
+        width: 80%;
+    }
+
+    .fullpage-product-main-titles button {
+        width: 100%;
+    }
+
+    .fullpage-product-main-titles button p {
+        width: 90%;
+        font-size: 2.2rem;
+        margin: 0.5rem;
+    }
+
+    .product-description {
+        width: 90%;
+    }
+}

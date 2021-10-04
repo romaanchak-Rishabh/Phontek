@@ -16,22 +16,7 @@ const FullPageDescription = ({ match, location }) => {
 
     const list = productData.filter(item => item.id === productId);
 
-        console.log(list[0].extra_image);
-
-    // const fir_image = list[0].product_image;
-    // console.log(fir_image);
     var images = list[0].extra_image;
-    console.log(images);
-    // images.push(fir_image);
-    // console.log(images);
-    // console.log(list[0].extra_image);
-    // images = list[0].extra_image;
-    // console.log(images);
-    // console.log(list[0].product_image);
-    // images.unshift(fir_image);
-    // images.shift()
-    // images.push(list[0].extra_image)
-    // console.log(images);
 
     const path = '/'+(list[0].catagory);
   
@@ -44,7 +29,7 @@ const FullPageDescription = ({ match, location }) => {
         <div className='fullpage-product-main'>
           <div className='fullpage-product-main-img'>
 
-          <Carousel>
+          <Carousel showStatus={false}>
             {images.map(item => <div><img src={item} alt='product-image' /></div>)}
           </Carousel>
 
@@ -80,7 +65,9 @@ const FullPageDescription = ({ match, location }) => {
           <br />
           <div className='related-products'>
             <h1>Related Products</h1>
-            <ProductView data={related} />
+            <div className='related-products-data'>
+              <ProductView data={related} />
+            </div>
           </div>
         </div>
       </div>
