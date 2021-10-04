@@ -1,0 +1,40 @@
+.dc-homepage {
+    background-color: white;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    padding-top: 10rem;
+}
+
+.dc-homepage-main {
+    width: 90%;
+}
+
+.dc-homepage-main-heading {
+    width: 60%;
+    font-size: 2rem;
+    border-bottom: 0.1rem solid #515151;
+}
+
+.dc-homepage-main-heading h1 {
+    width: fit-content;
+    margin: 0;
+    border-bottom: 0.35rem solid #fa6161;
+}
+
+.dc-homepage-main-result {
+    color: #515151;
+    padding-top: 1rem;
+}
+
+.dc-homepage-main-result p {
+    font-size: 2rem;
+}
+
+@media only screen and (max-width: 468px) {
+    .dc-homepage-main-heading {
+        width: 80%;
+        border-bottom: 0.1rem solid #515151;
+    }
+}

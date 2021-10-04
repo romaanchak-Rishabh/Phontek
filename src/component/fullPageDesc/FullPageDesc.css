@@ -1,0 +1,99 @@
+.fullpage {
+    /* height: 90vh; */
+    padding-top: 10rem;
+    padding-bottom: 5rem;
+    background: white;
+}
+
+.fullpage-product-main {
+    width: 70%;
+    padding-left: 10%;
+    padding-top: 2%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.fullpage-product-main-img {
+    width: 40%;
+    height: auto;
+}
+
+.fullpage-product-main-img img {
+    width: 100%;
+}
+
+.fullpage-product-main-titles {
+    width: 50%;
+}
+
+.fullpage-product-main-titles h1 {
+    font-size: 4rem;
+}
+
+.fullpage-product-main-titles p {
+    font-size: 2rem;
+}
+
+.fullpage-product-main-titles button {
+    outline: 0;
+    border: 0;
+    background: #ed7203;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.fullpage-product-main-titles button p {
+    color: white;
+    font-size: 1.75rem;
+    margin: 0.4rem;
+}
+
+.fullpage-contact-links {
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.phone-icon {
+    color: #095694;
+}
+
+.whatsapp-icon {
+    color: #43d854;
+}
+
+.product-description {
+    width: 80%;
+    padding-left: 5%;
+    padding-top: 3%;
+}
+
+.product-description hr {
+    border: 1px solid #ed7203;
+}
+
+.product-description-title {
+    width: 30%;
+}
+
+.product-description-title h1 {
+    font-size: 2.5rem;
+}
+
+.product-description-title hr {
+    border: 2px solid red;
+    background: red;
+}
+
+.product-discription-li ul li {
+    font-size: 1.8rem;
+    color: #5f5f5f;
+    padding: 0.3rem;
+}
+
+.related-products h1 {
+    font-size: 2.5rem;
+}

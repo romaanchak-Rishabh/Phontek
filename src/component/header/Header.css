@@ -1,0 +1,126 @@
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    background: white;
+    font-family: 'Barlow', sans-serif;
+    position: fixed;
+    z-index: 1000;
+}
+
+.menu-options {
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.menu-option-options {
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+    font-weight: 700;
+    transition: 0.2s linear;
+    border-bottom: 0.3rem solid white;
+}
+
+.menu-option-options:hover {
+    color: #ed7203;
+}
+
+.active-menu {
+    border-bottom: 0.3rem solid #ed7203;
+}
+
+.hamburger-menu {
+    display: none;
+}
+
+.hamburger-menu a {
+    color: black;
+}
+
+@media only screen and (max-width: 1024px) {
+    header {
+        height: 10rem;
+    }
+
+    .header-logo {
+        width: 20%;
+    }
+
+    .header-logo img {
+        width: 100%;
+    }
+
+    .menu-options {
+        width: 70%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .hamburger-menu {
+        display: inline-block;
+    }
+
+    .menu-options {
+        display: none;
+    }
+
+    header {
+        width: 80%;
+        justify-content: space-between;
+        padding: 0 10%;
+    }
+
+    .header-logo {
+        width: 30%;
+    }
+
+    .mobile-menu-options {
+        position: fixed;
+        width: 40%;
+        height: 40rem;
+        top: 10rem;
+        right: 0;
+        background: white;
+        color: black;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: space-evenly;
+        z-index: 10000;
+        padding-right: 10%;
+        border: 0.2rem solid #ed7203;
+        border-top: 0;
+        border-radius: 0 0 1rem 1rem;
+        box-shadow: 0.3rem 1.5rem 1rem rgba(0, 0, 0, 0.3);
+    }
+
+    .menu-option-options {
+        font-size: 3rem;
+    }
+}
+
+@media only screen and (max-width: 468px) {
+    /* header {
+        width: 90%;
+        padding: 0 5%;
+    } */
+
+    .header-logo {
+        width: 40%;
+    }
+
+    .mobile-menu-options {
+        position: fixed;
+        width: 60%;
+        height: 40rem;
+    }
+
+    .menu-option-options {
+        font-size: 2rem;
+    }
+}
