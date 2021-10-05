@@ -7,12 +7,12 @@ import { GiHamburgerMenu } from 'react-icons/gi';
 
 const Header = () => {
 
-console.log(goHome);
+    const [showMenu, setShowMenu] = useState(false);
 
     return(
         <header>
             <div className='header-logo'>
-                <NavLink to='/Phontek/'><img src={phontekLogo} alt='phontek-logo' /></NavLink>
+                <NavLink to='/Phontek'><img src={phontekLogo} alt='phontek-logo' /></NavLink>
             </div>
             <div className={showMenu ? 'mobile-menu-options' : 'menu-options'}  >
                 <NavLink exact activeClassName='active-menu' className='menu-option-options' to='/Phontek/'>HOME</NavLink>
