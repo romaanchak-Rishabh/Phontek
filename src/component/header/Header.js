@@ -7,9 +7,6 @@ import { GiHamburgerMenu } from 'react-icons/gi';
 
 const Header = () => {
 
-    const [showMenu, setShowMenu] = useState(false);
-    const [goHome, setGoHome] = useState(true);
-
 console.log(goHome);
 
     return(
@@ -18,13 +15,13 @@ console.log(goHome);
                 <NavLink to='/Phontek/'><img src={phontekLogo} alt='phontek-logo' /></NavLink>
             </div>
             <div className={showMenu ? 'mobile-menu-options' : 'menu-options'}  >
-                <NavLink exact activeClassName='active-menu' className='menu-option-options' onClick={()=> {setGoHome(false)}} to='/Phontek/'>HOME</NavLink>
-                <NavLink exact activeClassName='active-menu' className='menu-option-options' onClick={()=> {setGoHome(false)}} to='/Phontek/data-cables'>DATA CABLES</NavLink>
-                <NavLink exact activeClassName='active-menu' className='menu-option-options' onClick={()=> {setGoHome(false)}} to='/Phontek/chargers'>CHARGERS</NavLink>
-                <NavLink exact activeClassName='active-menu' className='menu-option-options' onClick={()=> {setGoHome(false)}} to='/Phontek/handsfree'>HANDSFREE</NavLink>
-                <NavLink exact activeClassName='active-menu' className='menu-option-options' onClick={()=> {setGoHome(false)}} to='/Phontek/microSD'>MEMORY CARD</NavLink>
-                <NavLink exact activeClassName='active-menu' className='menu-option-options' onClick={()=> {setGoHome(false)}} to='/Phontek/pendrive'>PENDRIVE</NavLink>
-                <NavLink exact activeClassName='active-menu' className='menu-option-options' onClick={()=> {setGoHome(false)}} to='/Phontek/contact-us'>CONTACT US</NavLink>
+                <NavLink exact activeClassName='active-menu' className='menu-option-options' to='/Phontek/'>HOME</NavLink>
+                <NavLink exact activeClassName='active-menu' className='menu-option-options' to='/Phontek/data-cables'>DATA CABLES</NavLink>
+                <NavLink exact activeClassName='active-menu' className='menu-option-options' to='/Phontek/chargers'>CHARGERS</NavLink>
+                <NavLink exact activeClassName='active-menu' className='menu-option-options' to='/Phontek/handsfree'>HANDSFREE</NavLink>
+                <NavLink exact activeClassName='active-menu' className='menu-option-options' to='/Phontek/microSD'>MEMORY CARD</NavLink>
+                <NavLink exact activeClassName='active-menu' className='menu-option-options' to='/Phontek/pendrive'>PENDRIVE</NavLink>
+                <NavLink exact activeClassName='active-menu' className='menu-option-options' to='/Phontek/contact-us'>CONTACT US</NavLink>
 
 
                 <div className='social-media-icons'>
