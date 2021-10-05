@@ -19,7 +19,7 @@ function App() {
       <Header />
       {/* <Home /> */}
       <Switch>
-        <Route exact path='/Phontek/home' component={Home} />
+        <Route exact path='/Phontek/' component={Home} />
         <Route exact path='/Phontek/contact-us' component={ContactUs} />
         <Route exact path='/Phontek/data-cables' component={DCHomepage} />
         <Route exact path='/Phontek/chargers' component={ChargersHomepage} />

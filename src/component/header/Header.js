@@ -18,7 +18,7 @@ const Header = () => {
                 <NavLink to='/'><img src={phontekLogo} alt='phontek-logo' /></NavLink>
             </div>
             <div className={showMenu ? 'mobile-menu-options' : 'menu-options'}  >
-                <NavLink exact activeClassName='active-menu' className='menu-option-options' onClick={()=> {setGoHome(false)}} to='/Phontek/home'>HOME</NavLink>
+                <NavLink exact activeClassName='active-menu' className='menu-option-options' onClick={()=> {setGoHome(false)}} to='/Phontek/'>HOME</NavLink>
                 <NavLink exact activeClassName='active-menu' className='menu-option-options' onClick={()=> {setGoHome(false)}} to='/Phontek/data-cables'>DATA CABLES</NavLink>
                 <NavLink exact activeClassName='active-menu' className='menu-option-options' onClick={()=> {setGoHome(false)}} to='/Phontek/chargers'>CHARGERS</NavLink>
                 <NavLink exact activeClassName='active-menu' className='menu-option-options' onClick={()=> {setGoHome(false)}} to='/Phontek/handsfree'>HANDSFREE</NavLink>
