@@ -10,7 +10,7 @@ const Header = () => {
     const [showMenu, setShowMenu] = useState(false);
     const [goHome, setGoHome] = useState(true);
 
-
+console.log(goHome);
 
     return(
         <header>

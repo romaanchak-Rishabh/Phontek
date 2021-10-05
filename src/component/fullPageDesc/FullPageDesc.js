@@ -18,7 +18,7 @@ const FullPageDescription = ({ match, location }) => {
 
     var images = list[0].extra_image;
 
-    const path = '/'+(list[0].catagory);
+    const path = '/Phontek/'+(list[0].catagory);
   
     const new_list = list[0].description;
 
