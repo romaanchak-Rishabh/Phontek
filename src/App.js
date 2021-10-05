@@ -23,7 +23,7 @@ function App() {
         <Route exact path='/Phontek/contact-us' component={ContactUs} />
         <Route exact path='/Phontek/data-cables' component={DCHomepage} />
         <Route exact path='/Phontek/chargers' component={ChargersHomepage} />
-        <Route exact path='/Phontek/:productCatagory/:productId' component={FullPageDescription} />
+        <Route exact path='/:productCatagory/:productId' component={FullPageDescription} />
         <Route exact path='/Phontek/handsfree' component={HFHomepage} />
         {/* <Route exact path='/handsfree/hf2' component={ChargersHomepage} /> */}
         <Route exact path='/Phontek/microSD' component={MicroSDHomepage} />
