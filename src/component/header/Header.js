@@ -15,7 +15,7 @@ console.log(goHome);
     return(
         <header>
             <div className='header-logo'>
-                <NavLink to='/'><img src={phontekLogo} alt='phontek-logo' /></NavLink>
+                <NavLink to='/Phontek/'><img src={phontekLogo} alt='phontek-logo' /></NavLink>
             </div>
             <div className={showMenu ? 'mobile-menu-options' : 'menu-options'}  >
                 <NavLink exact activeClassName='active-menu' className='menu-option-options' onClick={()=> {setGoHome(false)}} to='/Phontek/'>HOME</NavLink>
