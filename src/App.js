@@ -19,7 +19,7 @@ function App() {
       <Header />
       <Home />
       <Switch>
-        <Route exact path='/' component={Home} />
+        <Route exact path='/home' component={Home} />
         <Route exact path='/contact-us' component={ContactUs} />
         <Route exact path='/data-cables' component={DCHomepage} />
         <Route exact path='/chargers' component={ChargersHomepage} />
@@ -28,7 +28,7 @@ function App() {
         {/* <Route exact path='/handsfree/hf2' component={ChargersHomepage} /> */}
         <Route exact path='/microSD' component={MicroSDHomepage} />
         <Route exact path='/pendrive' component={PenDriveHomepage} />
-        <Redirect to='/' />
+        <Redirect to='/home' />
       </Switch>
       <Footer />
     </div>
