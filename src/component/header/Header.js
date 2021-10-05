@@ -15,13 +15,13 @@ const Header = () => {
                 <NavLink to='/'><img src={phontekLogo} alt='phontek-logo' /></NavLink>
             </div>
             <div className={showMenu ? 'mobile-menu-options' : 'menu-options'}  >
-                <NavLink exact activeClassName='active-menu' className='menu-option-options' to='/home'>HOME</NavLink>
-                <NavLink exact activeClassName='active-menu' className='menu-option-options' to='/data-cables'>DATA CABLES</NavLink>
-                <NavLink exact activeClassName='active-menu' className='menu-option-options' to='/chargers'>CHARGERS</NavLink>
-                <NavLink exact activeClassName='active-menu' className='menu-option-options' to='/handsfree'>HANDSFREE</NavLink>
-                <NavLink exact activeClassName='active-menu' className='menu-option-options' to='/microSD'>MEMORY CARD</NavLink>
-                <NavLink exact activeClassName='active-menu' className='menu-option-options' to='/pendrive'>PENDRIVE</NavLink>
-                <NavLink exact activeClassName='active-menu' className='menu-option-options' to='/contact-us'>CONTACT US</NavLink>
+                <NavLink exact activeClassName='active-menu' className='menu-option-options' to='/phontek/home'>HOME</NavLink>
+                <NavLink exact activeClassName='active-menu' className='menu-option-options' to='/phontek/data-cables'>DATA CABLES</NavLink>
+                <NavLink exact activeClassName='active-menu' className='menu-option-options' to='/phontek/chargers'>CHARGERS</NavLink>
+                <NavLink exact activeClassName='active-menu' className='menu-option-options' to='/phontek/handsfree'>HANDSFREE</NavLink>
+                <NavLink exact activeClassName='active-menu' className='menu-option-options' to='/phontek/microSD'>MEMORY CARD</NavLink>
+                <NavLink exact activeClassName='active-menu' className='menu-option-options' to='/phontek/pendrive'>PENDRIVE</NavLink>
+                <NavLink exact activeClassName='active-menu' className='menu-option-options' to='/phontek/contact-us'>CONTACT US</NavLink>
 
 
                 <div className='social-media-icons'>

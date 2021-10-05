@@ -19,15 +19,15 @@ function App() {
       <Header />
       <Home />
       <Switch>
-        <Route exact path='/home' component={Home} />
-        <Route exact path='/contact-us' component={ContactUs} />
-        <Route exact path='/data-cables' component={DCHomepage} />
-        <Route exact path='/chargers' component={ChargersHomepage} />
-        <Route exact path='/:productCatagory/:productId' component={FullPageDescription} />
-        <Route exact path='/handsfree' component={HFHomepage} />
+        <Route exact path='/phontek/home' component={Home} />
+        <Route exact path='/phontek/contact-us' component={ContactUs} />
+        <Route exact path='/phontek/data-cables' component={DCHomepage} />
+        <Route exact path='/phontek/chargers' component={ChargersHomepage} />
+        <Route exact path='/phontek/:productCatagory/:productId' component={FullPageDescription} />
+        <Route exact path='/phontek/handsfree' component={HFHomepage} />
         {/* <Route exact path='/handsfree/hf2' component={ChargersHomepage} /> */}
-        <Route exact path='/microSD' component={MicroSDHomepage} />
-        <Route exact path='/pendrive' component={PenDriveHomepage} />
+        <Route exact path='/phontek/microSD' component={MicroSDHomepage} />
+        <Route exact path='/phontek/pendrive' component={PenDriveHomepage} />
         {/* <Redirect to='/home' /> */}
       </Switch>
       <Footer />
