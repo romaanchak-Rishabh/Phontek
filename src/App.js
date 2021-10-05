@@ -1,6 +1,6 @@
 // import logo from './logo.svg';
 import './App.css';
-import { Route, Switch, Redirect } from 'react-router-dom';
+import { Route, Switch, Redirect, Link } from 'react-router-dom';
 
 import Header from './component/header/Header';
 import Home from './component/home/Home';
@@ -17,6 +17,7 @@ function App() {
   return (
     <div className="App">
       <Header />
+      <Home />
       <Switch>
         <Route exact path='/' component={Home} />
         <Route exact path='/contact-us' component={ContactUs} />
@@ -24,7 +25,7 @@ function App() {
         <Route exact path='/chargers' component={ChargersHomepage} />
         <Route exact path='/:productCatagory/:productId' component={FullPageDescription} />
         <Route exact path='/handsfree' component={HFHomepage} />
-        <Route exact path='/handsfree/hf2' component={ChargersHomepage} />
+        {/* <Route exact path='/handsfree/hf2' component={ChargersHomepage} /> */}
         <Route exact path='/microSD' component={MicroSDHomepage} />
         <Route exact path='/pendrive' component={PenDriveHomepage} />
         <Redirect to='/' />
