@@ -28,7 +28,7 @@ function App() {
         {/* <Route exact path='/handsfree/hf2' component={ChargersHomepage} /> */}
         <Route exact path='/microSD' component={MicroSDHomepage} />
         <Route exact path='/pendrive' component={PenDriveHomepage} />
-        <Redirect to='/home' />
+        {/* <Redirect to='/home' /> */}
       </Switch>
       <Footer />
     </div>
