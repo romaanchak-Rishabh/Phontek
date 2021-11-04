@@ -26,7 +26,7 @@ function App() {
         <Route exact path='/handsfree' component={HFHomepage} />
         <Route exact path='/microSD' component={MicroSDHomepage} />
         <Route exact path='/pendrive' component={PenDriveHomepage} />
-        <Redirect to='/home' />
+        <Redirect to='/' />
       </Switch>
       <Footer />
     </div>
