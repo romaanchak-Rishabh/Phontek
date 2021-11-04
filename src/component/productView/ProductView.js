@@ -1,5 +1,4 @@
 import React from "react";
-import ReactDOM from 'react-dom';
 import "./ProductView.css";
 
 import FullPageDesc from "../fullPageDesc/FullPageDesc";
@@ -17,10 +16,10 @@ const ProductView = (props) => {
                 <img src={item.product_image} alt='product image' title={item.product_name} />
                 <button type='button' className='product-view-read-more'>Read More</button>
             </div>
-            </Link>
-            <div className='product-view-card-header'>
-                <h2>{item.product_name}</h2>
-            </div>
+        </Link>
+        <div className='product-view-card-header'>
+            <h2>{item.product_name}</h2>
+        </div>
         </div>
     );
     return (

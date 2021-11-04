@@ -1,5 +1,4 @@
 import React from "react";
-import ReactDOM from 'react-dom';
 import "./FullPageDesc.css";
 import productData from '../productData';
 
@@ -18,7 +17,7 @@ const FullPageDescription = ({ match, location }) => {
 
     var images = list[0].extra_image;
 
-    const path = '/Phontek/'+(list[0].catagory);
+    const path = '/'+(list[0].catagory);
   
     const new_list = list[0].description;
 
