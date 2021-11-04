@@ -12,7 +12,7 @@ const ProductView = (props) => {
 
     const viewData = props.data.map((item) =>
         <div className='product-view-card' key={item.id}>
-        <Link to={`/Phontek/${item.catagory}/${item.id}`}>
+        <Link to={`/${item.catagory}/${item.id}`}>
             <div className='product-view-card-img'>
                 <img src={item.product_image} alt='product image' title={item.product_name} />
                 <button type='button' className='product-view-read-more'>Read More</button>

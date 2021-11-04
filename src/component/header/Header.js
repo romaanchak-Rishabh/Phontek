@@ -7,7 +7,7 @@ import { GiHamburgerMenu } from 'react-icons/gi';
 
 const Header = () => {
 
-    const [showMenu, setShowMenu] = useState(false);
+    const [showMenu, setShowMenu] = useState(false);    
 
     return(
         <header>
@@ -15,13 +15,13 @@ const Header = () => {
                 <NavLink to='/Phontek/'><img src={phontekLogo} alt='phontek-logo' /></NavLink>
             </div>
             <div className={showMenu ? 'mobile-menu-options' : 'menu-options'}  >
-                <NavLink exact activeClassName='active-menu' className='menu-option-options' to='/Phontek/'>HOME</NavLink>
-                <NavLink exact activeClassName='active-menu' className='menu-option-options' to='/Phontek/data-cables'>DATA CABLES</NavLink>
-                <NavLink exact activeClassName='active-menu' className='menu-option-options' to='/Phontek/chargers'>CHARGERS</NavLink>
-                <NavLink exact activeClassName='active-menu' className='menu-option-options' to='/Phontek/handsfree'>HANDSFREE</NavLink>
-                <NavLink exact activeClassName='active-menu' className='menu-option-options' to='/Phontek/microSD'>MEMORY CARD</NavLink>
-                <NavLink exact activeClassName='active-menu' className='menu-option-options' to='/Phontek/pendrive'>PENDRIVE</NavLink>
-                <NavLink exact activeClassName='active-menu' className='menu-option-options' to='/Phontek/contact-us'>CONTACT US</NavLink>
+                <NavLink exact activeClassName='active-menu' className='menu-option-options' to='/'>HOME</NavLink>
+                <NavLink exact activeClassName='active-menu' className='menu-option-options' to='/data-cables'>DATA CABLES</NavLink>
+                <NavLink exact activeClassName='active-menu' className='menu-option-options' to='/chargers'>CHARGERS</NavLink>
+                <NavLink exact activeClassName='active-menu' className='menu-option-options' to='/handsfree'>HANDSFREE</NavLink>
+                <NavLink exact activeClassName='active-menu' className='menu-option-options' to='/microSD'>MEMORY CARD</NavLink>
+                <NavLink exact activeClassName='active-menu' className='menu-option-options' to='/pendrive'>PENDRIVE</NavLink>
+                <NavLink exact activeClassName='active-menu' className='menu-option-options' to='/contact-us'>CONTACT US</NavLink>
 
 
                 <div className='social-media-icons'>

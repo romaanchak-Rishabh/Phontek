@@ -18,15 +18,15 @@ function App() {
     <div className="App">
       <Header />
       <Switch>
-        <Route exact path='/Phontek/' component={Home} />
-        <Route exact path='/Phontek/contact-us' component={ContactUs} />
-        <Route exact path='/Phontek/data-cables' component={DCHomepage} />
-        <Route exact path='/Phontek/chargers' component={ChargersHomepage} />
-        <Route exact path='/Phontek/:productCatagory/:productId' component={FullPageDescription} />
-        <Route exact path='/Phontek/handsfree' component={HFHomepage} />
-        <Route exact path='/Phontek/microSD' component={MicroSDHomepage} />
-        <Route exact path='/Phontek/pendrive' component={PenDriveHomepage} />
-        <Redirect to='/Phontek/home' />
+        <Route exact path='/' component={Home} />
+        <Route exact path='/contact-us' component={ContactUs} />
+        <Route exact path='/data-cables' component={DCHomepage} />
+        <Route exact path='/chargers' component={ChargersHomepage} />
+        <Route exact path='/:productCatagory/:productId' component={FullPageDescription} />
+        <Route exact path='/handsfree' component={HFHomepage} />
+        <Route exact path='/microSD' component={MicroSDHomepage} />
+        <Route exact path='/pendrive' component={PenDriveHomepage} />
+        <Redirect to='/home' />
       </Switch>
       <Footer />
     </div>
