@@ -29,7 +29,7 @@ const Home = () => {
             <meta property="og:locale" content="en_US" />
             <meta property="og:type" content="website" />
             <meta property="og:title" content="Phontek - Your Technological Companion" />
-            <meta property="og:description" content="Visit Phontek and explore all best day-to-day gadgets to make your live more easy and better." />
+            <meta property="og:description" content="Visit Phontek and explore all best day-to-day gadgets to make your live more easy and better. Mobile And Mobile Accessories Such As _ Charger, Battery, Mobile Cover, Handsfree, Speakers, Bluetooth And Memory Card, Pen Drive Accessories." />
             <meta property="og:url" content="https://phontek.in/" />
             <meta property="og:site_name" content="Phontek" />
             <meta property="og:updated_time" content="2021-11-11T00:00:00+05:30" />
