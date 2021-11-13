@@ -20,7 +20,7 @@ const Home = () => {
         <div className='homepage-main'>
         <Helmet>
             <title>Phontek - Your Technological Companion</title>
-            <meta name="description" content="Visit Phontek and explore all best day-to-day gadgets to make your live more easy and better."/>
+            <meta name="description" content="Visit Phontek and explore all best day-to-day gadgets to make your live more easy and better. Mobile And Mobile Accessories Such As _ Charger, Battery, Mobile Cover, Handsfree, Speakers, Bluetooth And Memory Card, Pen Drive Accessories."/>
             <link rel="canonical" href="https://phontek.in/"/>
             <meta name="robots" content="follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"/>
             <meta name="keywords" content="Phontek, Phontek.in, mobile accessories, mobile accessories near me, mobile accessories store near me, mobile accessories wholesale, mobile accessories store, mobile accessories display rack, mobile accessories wholesale near me, mobile accessories list, mobile accessories market, mobile accessories website, earphone accessories, earphone accessories name, earphone accessories earbuds, earphone accessories shop, earphone accessories mobile, earphone accessories stand, earphone accessories airpods, earphone accessories radio" />
