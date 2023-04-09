@@ -1,13 +1,13 @@
 // dc1 data
 import DC2_0A from "../assets/productImages/DataCables/DC_2-0A.jpg";
 // import dc1_two from "../assets/productImages/DataCables/dc1/2.jpg"; commented because blurry image
-import dc1_three from "../assets/productImages/DataCables/dc1/3.jpg";
+import dc1_three from "../assets/productImages/DataCables/dc1/3.jpeg";
 
 // dc2 data
-import PTDC_202 from "../assets/productImages/DataCables/PTDC-202.jpg";
-import dc2_two from "../assets/productImages/DataCables/dc2/2.jpg";
-import dc2_three from "../assets/productImages/DataCables/dc2/3.jpg";
-import dc2_four from "../assets/productImages/DataCables/dc2/4.jpg";
+import PTDC_202 from "../assets/productImages/DataCables/PTDC-202.jpeg";
+import dc2_two from "../assets/productImages/DataCables/dc2/2.jpeg";
+import dc2_three from "../assets/productImages/DataCables/dc2/3.jpeg";
+import dc2_four from "../assets/productImages/DataCables/dc2/4.jpeg";
 
 // dc3 data
 import PTDC_203 from "../assets/productImages/DataCables/PTDC-203.jpg";
